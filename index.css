@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  height: 60px;
+  background-color: whitesmoke;
+  text-transform: capitalize;
+}
+
+.divtag {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  flex: 1;
+}
+
+.divtag li {
+  font-size: 15px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  flex: 2;
+}
+
+.header_btn {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.header_btn button {
+  border: none;
+  background-color: cadetblue;
+  height: 30px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.hero {
+  height: calc(100vh - 60px);
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(tour.jpg);
+  background-size: cover;
+  display: flex;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.hero_text {
+  font-size: 60px;
+  font-style: italic;
+  color: antiquewhite;
+  font-weight: 400;
+}
+.moon {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info {
+  width: 50%;
+  text-align: center;
+}
+
+.infoh1 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.infop {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lux_content {
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 1.9rem;
+}
+
+.lux_content small {
+  font-size: 80%;
+}
+
+.lux_image {
+  display: flex;
+  justify-content: space-evenly;
+}
+.img2 {
+  width: 400px;
+  height: 400px;
+}
+
+.skin {
+  width: 90px;
+  height: 50px;
+  background-color: red;
+  margin-top: -300px;
+}
+
+.img-cont {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.img1 {
+  height: 30vh;
+  width: 30%;
+  background-image: url(tour.jpg);
+  background-size: cover;
+  padding: 13rem 10rem;
+}
+
+.img1 h4 {
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 90px;
+  background-color: cadetblue;
+}
